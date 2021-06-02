@@ -4,51 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component library</title>
+    <!-- CSS way 1: style tag -->
+   
+    <!-- <style>  
+        body
+        {
+            color : blue;
+        }
+    </style> -->
+
+    <!-- CSS way 3 : Doing a separate css file -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <h1>Welcome to sushanth component library</h1>
-    <h2>This is the seconf biggest</h2>
+    <h1 id="z">Welcome to sushanth component library</h1>
+    <p>I'm attending neog.camo and i want to make a library which would make all my projects look good and consistent.</p>
+    <hr>
 
-    <p>I'm attending neog.camo and i want to make a librarywhich would make all my projects look good and consistent.</p>
+    <h2 class="heads">@Typography</h2>
+    <!-- CSS way 3: style tag -->
+    <!-- <h1 style="color:red">This is the biggest heading</h1> -->
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest</h2>
+    <p>let me show you the normal t.this is free flowing and will wrap at the end like paragraph</p>
+    <h3>This is the third biggest</h3>
+    <h4>This is the medium</h4>
+    <h5>This is the smaller</h5>
+    <h6>This is the even smaller</h6>
 
     <small>this is the smallest text </small>
 
-    <h2>Container </h2>
+    <h2 class="heads">@Container </h2>
     <h3> This is fluid container</h3>
-  <div>This is a fluid container and it will go till the specifies width</div>
+    <div>This is a fluid container and it will go till the specifies width</div>
+
+    <h3> This is Centered container</h3>
+    <div>This is a Centered container and it will go till the specifies width</div>
+    <hr>
+
+  <h2 class="heads">@link</h2>
+  <a href="https://google.com">Primary link</a>
+  <a href="https://google.com">Secondary link</a>
   <hr>
 
-  <h3> This is Centered container</h3>
-  <div>This is a Centered container and it will go till the specifies width</div>
-  <hr>
-
-  <h2>link</h2>
-<a href="https://google.com">Primary link</a>
-<a href="https://google.com">Secondary link</a>
- <hr>
-
- <h2>Lists</h2>
- <h3>unordered lists</h3>
- <ul>
+  <h2 class="heads">@Lists</h2>
+  <h3>unordered lists</h3>
+  <ul>
      <li>Item one</li>
      <li>Item two</li>
      <li>Item three</li>
- </ul>
+  </ul>
 
- <h3>unordered Inline lists</h3>
- <ul>
+  <h3>unordered Inline lists</h3>
+  <ul>
      <li>Inline Item one</li>
      <li>Inline Item two</li>
      <li>Inline Item three</li>
- </ul>
+  </ul>
 
- <h3>Reverse ordered lists</h3>
- <ol>
-<li>Mile</li>
-<li>eggs</li>
-<li>Break</li>
-</ol>
-<hr>
+  <h3>Reverse ordered lists</h3>
+  <ol>
+        <li>Mile</li>
+        <li>eggs</li>
+        <li>Break</li>
+ </ol>
+ <hr>
 
 <nav>
     <div>I'mABrand</div>
@@ -62,7 +83,9 @@
         <li>
             <a href="">About</a>
         </li>  
-        <h2>Header</h2>
+
+
+        <h2 class="heads">@Header</h2>
         <header> 
             <img src="Images/image-project1.svg" alt="">
             <h1>Heading inside here</h1>
@@ -72,7 +95,7 @@
 </nav>
 <hr>
 
-<h2>Section</h2>
+<h2 class="heads">@Section</h2>
 
 <section>
     <h3>Write section</h3>
@@ -83,9 +106,7 @@
     <h3>Center section</h3>
     <p>This will have grey  background</p>
 </section>
-
 <hr> 
-
 
 <footer>
     <div>Small heading inside footer</div>
