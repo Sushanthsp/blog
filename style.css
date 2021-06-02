@@ -1,6 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
 
-body {
+body 
+{
     font-family: 'Ubuntu', sans-serif;
+}
+
+.container
+{
+    padding-left: 6rem;
+    padding-right:2rem;
 
 }
+
+.centered-container
+{
+    padding-left: 400px;
+}
+ 
+ 
