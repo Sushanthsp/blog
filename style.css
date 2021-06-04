@@ -52,3 +52,16 @@ body
      margin : 2rem 0 ;
  }
 
+
+ .list-non-bullet
+ {
+     list-style: none ;
+ }
+
+ .list-item-inline
+ {
+     display: inline;
+     padding: 1.5rem 0.5rem;
+ }
+
+ 
