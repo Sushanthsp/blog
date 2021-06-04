@@ -3,7 +3,8 @@
 
 :root{
     --primary-color : rgb(124, 58, 237);
- 
+    --grey : #9CA3AF ;
+
 }
 
 body 
@@ -96,4 +97,25 @@ body
     font-weight: bold ;
 }
 
+/* Header */
 
+.hero
+{
+    padding: 2rem ;
+}
+
+.hero .hero-img
+{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.hero .hero-heading
+{
+    padding: 1rem;
+     text-align: center;
+     color: var(--grey);
+}
+
+ 

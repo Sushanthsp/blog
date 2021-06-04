@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component library</title>
     <!-- CSS way 1: style tag -->
-   
+
     <!-- <style>  
         body
         {
@@ -17,9 +18,11 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <h1 id="z">Welcome to sushanth component library</h1>
-    <p>I'm attending neog.camo and i want to make a library which would make all my projects look good and consistent.</p>
+    <p>I'm attending neog.camo and i want to make a library which would make all my projects look good and consistent.
+    </p>
     <hr>
 
     <h2 class="heads">@Typography</h2>
@@ -46,80 +49,88 @@
     <div class="container centered-container">This is a Centered container and it will go till the specifies width</div>
     <hr>
 
-  <h2 class="heads">@link</h2>
-  <a href="https://google.com" class="link link-primary">Primary link</a>
-  <a href="https://google.com" class="link link-secondary">Secondary link</a>
-  <hr>
+    <h2 class="heads">@link</h2>
+    <a href="https://google.com" class="link link-primary">Primary link</a>
+    <a href="https://google.com" class="link link-secondary">Secondary link</a>
+    <hr>
 
-  <h2 class="heads">@Lists</h2>
-  <h3>unordered lists</h3>
-  <ul>
-     <li>Item one</li>
-     <li>Item two</li>
-     <li>Item three</li>
-  </ul>
+    <h3>unordered lists</h3>
+    <h2 class="heads">@Lists</h2>
+    <ul class="list-non-bullet">
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul>
 
-  <h3>unordered Inline lists</h3>
-  <ul>
-     <li>Inline Item one</li>
-     <li>Inline Item two</li>
-     <li>Inline Item three</li>
-  </ul>
+    <h3> class="list-mom-bullet"unordered Inline lists</h3>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item one</li>
+        <li class="list-item-inline">Inline Item two</li>
+        <li class="list-item-inline">Inline Item three</li>
+    </ul>
 
-  <h3>Reverse ordered lists</h3>
-  <ol>
+    <h3>Reverse ordered lists</h3>
+    <ol reversed>
         <li>Mile</li>
         <li>eggs</li>
         <li>Break</li>
- </ol>
- <hr>
+    </ol>
+    <hr>
 
-<nav>
-    <div>I'mABrand</div>
-    <ul>
-        <li>
-            <a href="">Home</a>
-        </li>
-        <li>
-            <a href="">Products</a>
-        </li>
-        <li>
-            <a href="">About</a>
-        </li>  
+    <nav class="navigation container">
+        <div class="nav-brand ">I'mABrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active " href="">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="">Products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="">About</a>
+            </li>
+    </nav>
 
+    <h2 class="heads">@Header</h2>
 
-        <h2 class="heads">@Header</h2>
-        <header> 
-            <img src="Images/image-project1.svg" alt="">
-            <h1>Heading inside here</h1>
-        </header>
+    <header class="hero">
+        <img class="hero-img" src="Images/image-project1.svg" alt="">
+        <h1 class="hero-heading">Adarsh balika the <span style="color: var(--primary-color);">Web developer</span></h1>
+    </header>
 
     </ul>
-</nav>
-<hr>
 
-<h2 class="heads">@Section</h2>
+    <hr>
 
-<section>
-    <h3>Write section</h3>
-    <p>This will go end to end with little margin at both the sides</p>
-</section>
+    <h2 class="heads">@Section</h2>
 
-<section>
-    <h3>Center section</h3>
-    <p>This will have grey  background</p>
-</section>
-<hr> 
+    <section class="section">
+        <div class="container centered-container">
+            <h1>Write section</h1>
+            <p>This will go end to end with little margin at both the sides</p>
+        </div>
 
-<footer>
-    <div>Small heading inside footer</div>
-    <li>Social one</li>
-    <li>Social two</li>
-    <li>Social three</li>
+    </section>
 
-</footer>
+    <section class="section ow">
+        <div class="container centered-container">
+            <h1>off White section</h1>
+            <p>A little while back, Chris shared this nice hexagonal grid. And true to its name, it’s using —wait for it — CSS Grid to form that layout. It’s a neat trick! Combining grid columns, grid gaps, and creative clipping churns out the final result. A similar thing could be accomplished with flexbox, too. But I’m here to resurrect</p>
+        </div>
+    </section>
+    <hr>
+
+    <footer>
+        <div>Small heading inside footer</div>
+        <ul class="link ">
+        <li><a href="/">social 1</a></li>
+        <li><a href="/">social 2</a></li>
+        <li><a href="/">social 3</a></li>
+    </ul>
+    </footer>
 
 
-    
+
 </body>
+
 </html>
