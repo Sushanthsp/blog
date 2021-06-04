@@ -4,7 +4,7 @@
 :root{
     --primary-color : rgb(124, 58, 237);
     --grey : #9CA3AF ;
-
+    --off-white :#E5E7EB;
 }
 
 body 
@@ -23,7 +23,8 @@ body
 
 .centered-container
 {
-    padding-left: 400px;
+   padding-left: 100px ;
+   margin: auto;
 }
  
  /* links */
@@ -118,4 +119,34 @@ body
      color: var(--grey);
 }
 
- 
+/* section */
+
+.section
+{
+    padding: 2rem ;
+}
+
+.section h1
+{
+    text-align: center;
+}
+
+.ow
+{
+    background-color: var(--off-white);
+}
+
+.footer
+{
+    background-color: var(--primary-color);
+    padding : 2rem 2rem ;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link
+{
+    color: white;
+}
+
