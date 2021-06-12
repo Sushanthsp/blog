@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color : rgb(30, 104, 224);
+    --primary-color : rgb(103,53,236);
     --light-black : rgb(63,61,86) ;
     --off-white :#E5E7EB;
     --white : rgb(255,255,255);
@@ -99,7 +99,7 @@ body
 .navigation .link-active
 {
     font-weight: bold ;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 /* Header */
