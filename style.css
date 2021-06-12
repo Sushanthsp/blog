@@ -4,7 +4,7 @@
 :root{
     --primary-color : rgb(103,53,236);
     --light-black : rgb(63,61,86) ;
-    --off-white :#E5E7EB;
+    --off-white :rgb(243,244,246);
     --white : rgb(255,255,255);
 }
 
@@ -131,17 +131,23 @@ body
 
 .section
 {
-    padding: 2rem ;
+    padding: 0.5rem 2rem ;
 }
 
 .section h1
 {
     text-align: center;
+    margin-top: .5rem;
 }
 
 .ow
 {
     background-color: var(--off-white);
+}
+
+.light-black
+{
+    color: var(--light-black);
 }
 
 .footer
