@@ -20,49 +20,57 @@
 </head>
 
 <body>
-    <h1 id="z">Welcome to sushanth component library</h1>
-    <p>I'm attending neog.camo and i want to make a library which would make all my projects look good and consistent.
+    <h1>Welcome to sushanth component library</h1>
+    <p>I'm attending neog.camp and i want to make a library which would make all my projects look good and consistent.
     </p>
     <hr>
 
     <h2 class="heads">@Typography</h2>
+
     <!-- CSS way 3: style tag -->
     <!-- <h1 style="color:red">This is the biggest heading</h1> -->
     <h1>This is the biggest heading</h1>
     <h2>This is the second biggest</h2>
-    <p>let me show you the normal t.this is free flowing and will wrap at the end like paragraph</p>
     <h3>This is the third biggest</h3>
     <h4>This is the medium text</h4>
     <h5>This is the smaller</h5>
     <h6>This is the even smaller</h6>
-
+    <p>let me show you the normal text. This is free flowing and will wrap at the end like paragraph</p>
     <p>This paragraph will have the <strong>bold</strong> text
     </p>
+    <small>this is relatively smaller text</small>
 
-    <small>this is relatively smaller </small>
+    <hr>
 
     <h2 class="heads">@Container </h2>
+
     <h3 class="fluid-container"> This is fluid container</h3>
-    <div>This is a fluid container and it will go till the specifies width</div>
+    <div>This is a fluid container and it will go till the end of page</div>
 
     <h3> This is Centered container</h3>
-    <div class="container centered-container">This is a Centered container and it will go till the specifies width</div>
+    <div class="container container-center">This is a Centered container and it will go till the specified width</div>
+
     <hr>
 
-    <h2 class="heads">@link</h2>
-    <a href="https://google.com" class="link link-primary">Primary link</a>
-    <a href="https://google.com" class="link link-secondary">Secondary link</a>
+    <h2 class="heads">@links</h2>
+
+    <a href="https://google.com" class="link primary-link">Primary link</a>
+    <a href="https://google.com" class="link secondary-link">Secondary link</a>
+
     <hr>
+
+    <h2 class="heads">@lists</h2>
 
     <h3>unordered lists</h3>
-    <h2 class="heads">@Lists</h2>
+    <p>This will not  have the bullet</p>
+
     <ul class="list-non-bullet">
         <li>Item one</li>
         <li>Item two</li>
         <li>Item three</li>
     </ul>
 
-    <h3> class="list-mom-bullet"unordered Inline lists</h3>
+    <h3>unordered Inline lists</h3>
     <ul class="list-non-bullet">
         <li class="list-item-inline">Inline Item one</li>
         <li class="list-item-inline">Inline Item two</li>
@@ -75,7 +83,10 @@
         <li>eggs</li>
         <li>Break</li>
     </ol>
+
     <hr>
+
+    <h2 class="heads">@Nav</h2>
 
     <nav class="navigation container">
         <div class="nav-brand ">I'mABrand</div>
@@ -95,17 +106,15 @@
 
     <header class="hero">
         <img class="hero-img" src="Images/image-project1.svg" alt="">
-        <h1 class="hero-heading">Adarsh balika the <span style="color: var(--primary-color);">Web developer</span></h1>
+        <h1 class="hero-heading">Adarsh balika the <span class="heading-inverted" >Web developer</span></h1>
     </header>
-
-    </ul>
 
     <hr>
 
     <h2 class="heads">@Section</h2>
 
     <section class="section">
-        <div class="container centered-container">
+        <div class="container container-center">
             <h1>Write section</h1>
             <p>This will go end to end with little margin at both the sides</p>
         </div>
@@ -113,13 +122,14 @@
     </section>
 
     <section class="section ow">
-        <div class="container centered-container">
+        <div class="container container-center">
             <h1>off White section</h1>
             <p>A little while back, Chris shared this nice hexagonal grid. And true to its name, it’s using —wait for it — CSS Grid to form that layout. It’s a neat trick! Combining grid columns, grid gaps, and creative clipping churns out the final result. A similar thing could be accomplished with flexbox, too. But I’m here to resurrect</p>
         </div>
     </section>
     <hr>
 
+    <!-- footer -->
     <footer class="footer ">
         <div class="footer-header">Small heading inside footer</div>
         <ul class="social-links list-non-bullet ">

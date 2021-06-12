@@ -21,9 +21,9 @@ body
 
 }
 
-.centered-container
+.container-center
 {
-   padding-left: 100px ;
+   max-width: 600px;
    margin: auto;
 }
  
@@ -35,7 +35,7 @@ body
         padding: 0.5rem 1rem;
  }
 
- .link-primary
+ .primary-link
  {
      background-color: var(--primary-color);
      border-radius: 0.5rem;
@@ -43,7 +43,7 @@ body
      color: white;
  }
 
- .link-secondary
+ .secondary-link
  {
      color: var(--primary-color);
      border-radius: 0.5rem;
@@ -54,6 +54,7 @@ body
      margin : 2rem 0 ;
  }
 
+ /* lists */
 
  .list-non-bullet
  {
@@ -115,10 +116,14 @@ body
 .hero .hero-heading
 {
     padding: 1rem;
-     text-align: center;
-     color: var(--grey);
+    text-align: center;
+    color: var(--grey);
 }
 
+.hero .hero-heading .heading-inverted
+{
+    color: var(--primary-color);
+}
 /* section */
 
 .section
