@@ -2,7 +2,7 @@
 
 
 :root{
-    --primary-color : #3a7cda;
+    --primary-color : rgb(36, 53, 206);
     --grey : #9CA3AF ;
     --off-white :#E5E7EB;
 }
@@ -71,7 +71,7 @@ body
 
 .navigation
 {
-    background-color: var(--primary-color);
+    background-image: linear-gradient(160deg,rgb(36, 53, 206), rgb(0, 217, 255));
     color : white ;
     padding: 1rem;
     border-bottom-left-radius: 1.5rem;
@@ -143,7 +143,7 @@ body
 
 .footer
 {
-    background-color: var(--primary-color);
+    background-image: linear-gradient(160deg,rgb(36, 53, 206), rgb(0, 217, 255));
     padding : 2rem 2rem ;
     text-align: center;
     color: white;
