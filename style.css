@@ -2,9 +2,10 @@
 
 
 :root{
-    --primary-color : rgb(119,50,231);
-    --grey : #9CA3AF ;
+    --primary-color : rgb(30, 104, 224);
+    --light-black : rgb(63,61,86) ;
     --off-white :#E5E7EB;
+    --white : rgb(255,255,255);
 }
 
 body 
@@ -19,7 +20,6 @@ body
 {
     padding-left: 2rem;
     padding-right:2rem;
-
 }
 
 .container-center
@@ -41,7 +41,7 @@ body
      background-color: var(--primary-color);
      border-radius: 0.5rem;
      border : 1px solid var(--primary-color);
-     color: white;
+     color: var(--white);
  }
 
  .secondary-link
@@ -73,15 +73,14 @@ body
 .navigation
  {
     background-image: linear-gradient(160deg,rgb(74, 172, 255), rgb(91, 74 ,239),rgb(112 ,36 ,234));
-    color : white ;
+    color : var(--white);
     padding: 1rem;
     border-bottom-left-radius: 1.5rem;
 }
 
 .navigation .link
 {
-    color: white ;
-    
+    color: var(--white);
 }
 
 .navigation .nav-pills
@@ -91,8 +90,9 @@ body
 
 .navigation .nav-brand
 {
-    font-weight: bold;
+    font-weight:bold;
     font-size: 1.5rem ;
+    display: inline;
 }
 
 .navigation .link-active
@@ -118,7 +118,7 @@ body
 {
     padding: 1rem;
     text-align: center;
-    color: var(--grey);
+    color: var(--light-black);
 }
 
 .hero .hero-heading .heading-inverted
@@ -156,3 +156,10 @@ body
     color: white;
 }
 
+/* icon */
+
+.icon 
+{
+    max-width: 20px;
+    max-height: 20px;
+}
