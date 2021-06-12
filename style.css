@@ -173,6 +173,9 @@ body
 .footer .link
 {
     color: white;
+    background-image: linear-gradient(160deg,rgb(74, 172, 255), rgb(91, 74 ,239),rgb(112 ,36 ,234));
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
  
 .footer ul
