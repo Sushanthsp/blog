@@ -91,7 +91,7 @@ body
     font-size: 1.1rem;
 }
 
-.navigation .nav-brand
+.navigation .nav-brand .link
 {
     font-weight:bold;
     font-size: 1.5rem ;
