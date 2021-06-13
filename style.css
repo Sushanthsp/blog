@@ -37,6 +37,14 @@ body
         padding: 0.5rem 1rem;
  }
 
+.link-topmargin
+{
+    display: block;
+    max-width: 6.5rem;
+    margin-top: 1.5rem;
+}
+
+
  .primary-link
  {
     background-image: linear-gradient(160deg,rgb(74, 172, 255), rgb(91, 74 ,239),rgb(112 ,36 ,234));
@@ -52,7 +60,8 @@ body
      border : 1px solid var(--primary-color);
  }
 
- hr{
+ hr
+ {
      margin : 1rem 6rem ;
      color: var(--light-black);
  }
@@ -140,6 +149,11 @@ body
 {
     text-align: center;
     margin-top: .5rem;
+}
+
+.section .start
+{
+    text-align: start;
 }
 
 .ow
